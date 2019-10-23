@@ -10,3 +10,28 @@ h1 {
   background-color: #ea5169;
   text-align: center;
 }
+
+.aboutWatermelons h2 {
+  text-align: center;
+}
+.aboutWatermelons {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.watermelonPics-grid{
+  display: flex;
+  justify-content: space-around;
+}
+
+.varieties {
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+.varieties ul{
+  list-style-type: none;
+  padding-left: none;
+  line-height: 20px;
+}
