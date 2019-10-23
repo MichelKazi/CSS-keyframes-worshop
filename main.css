@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  background-color: #ffecf3;
 }
 
 h1 {
@@ -19,9 +20,15 @@ h1 {
   margin: 0 auto;
 }
 
+.watermelonPics-grid img {
+  border-radius: 50%;
+  padding: 10px;
+}
+
 .watermelonPics-grid{
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: center;
 }
 
 .varieties {
@@ -29,8 +36,7 @@ h1 {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  border: 2px solid #ccf9ef;
-  background-color: #ffecf3;
+  border: .5px solid #ccf9ef;
   border-radius: 12px;
 }
 
