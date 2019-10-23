@@ -25,13 +25,18 @@ h1 {
 }
 
 .varieties {
-
+  width: 50%;
+  height: auto;
   text-align: center;
   margin: 0 auto;
+  border: 2px solid #ccf9ef;
+  background-color: #ffecf3;
+  border-radius: 12px;
 }
 
-.varieties ul{
+.varieties ul, li{
+  font-size: 24px;
   list-style-type: none;
-  padding-left: none;
-  line-height: 20px;
+  padding: none;
+  line-height: auto;
 }
