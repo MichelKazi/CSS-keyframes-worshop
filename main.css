@@ -74,13 +74,14 @@ header img {
   text-align: center;
 }
 #aboutWatermelons {
-  height: 100vh;
+  height: 85vh;
   margin-top: 10%;
   background-color: #fff;
   border-radius: 12px;
   border: 1px solid #000;
-  width: 33%;
+  width: 66%;
   margin: 0 auto;
+  padding: 15px;
 }
 
 .watermelonPics-grid img {
@@ -102,12 +103,10 @@ header img {
 }
 
 .varieties {
-  width: 50%;
+  width: 66%;
   height: auto;
   text-align: center;
   margin: 0 auto;
-  border: .5px solid #ccf9ef;
-  border-radius: 12px;
   background-color: #fff;
   margin-bottom: 15px;
 }
