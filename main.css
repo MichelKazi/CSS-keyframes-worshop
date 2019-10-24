@@ -24,19 +24,25 @@ h1 {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(45deg);
   }
 }
 
 header img {
+  margin: 0;
   width: 7%;
   height: 7%;
-  animation: rotateMelons 1s infinite linear;
+
 }
 
 .headerLeftImg {
   transform: scaleX(-1);
-  animation-direction: reverse;
+  animation-direction: alternate;
+}
+
+header img {
+  animation: rotateMelons 1s infinite linear;
+  animation-direction: alternate-reverse;
 }
 
 .aboutWatermelons h2 {
@@ -50,6 +56,13 @@ header img {
 .watermelonPics-grid img {
   border-radius: 50%;
   padding: 10px;
+  height: 200px;
+  width: 200px;
+  transition: box-shadow .5s;
+}
+
+.watermelonPics-grid img:hover {
+  box-shadow: 0 1px 5px #534951;
 }
 
 .watermelonPics-grid{
